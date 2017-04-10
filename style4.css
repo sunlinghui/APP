@@ -1,8 +1,8 @@
-*{margin:0; padding:0; list-style: none; font-family: "微软雅黑";}
+﻿*{margin:0; padding:0; list-style: none; font-family: "微软雅黑";}
 a{text-decoration: none; display: block;}
 html,body{width: 100%; height:100%}
 
-
+/*lllllllll22*/
 .top{width:16rem; height:3.41rem; top:0; left:0; z-index: 10; position:fixed; top:0px;}
 ._top{width:16rem; height:3.41rem; z-index: 9;}
 .head{width:16rem; height:1.875rem; background:#1f1f1f;}
