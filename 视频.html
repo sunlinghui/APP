@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="style2.css" />
+		<script type="text/javascript" src="js/zepto.js" ></script>
+		<script type="text/javascript" src="js/zTouch.min.js" ></script>
+		<script type="text/javascript" src="js/zepto.fx.js" ></script>
+	</head>
+	<body>
+		<div class="top" id="t">
+			<div class="head">
+				<a href="爱奇艺首页.html" class="logo"></a>
+				<p class="head_sou" id="log"></p>
+				<p class="head_time"></p>
+				<p class="head_deng">登录</p>
+				<p class="head_app"></p>
+			</div>
+			<div class="lei">
+				<div class="lei_left" id="div1">
+					<ul class="list_ul" id="list_ul">
+                        <li><a href="爱奇艺首页.html" class="list_li" >精选</a></li>
+                        <li><a href="javascript:;" class="list_li" >VIP会员</a></li>
+                        <li><a href="javascript:;" class="list_li" >电视剧</a></li>
+                        <li><a href="javascript:;" class="list_li" >电影</a></li>
+                        <li><a href="javascript:;" class="list_li" >综艺</a></li>
+                        <li><a href="javascript:;" class="list_li" >动漫</a></li>
+                        <li><a href="javascript:;" class="list_li" >资讯</a></li>
+                        <li><a href="javascript:;" class="list_li" >娱乐</a></li>
+                        <li><a href="javascript:;" class="list_li" >原创</a></li>
+                        <li><a href="javascript:;" class="list_li" >搞笑</a></li>
+                        <li><a href="javascript:;" class="list_li" >健康</a></li>
+                        <li><a href="javascript:;" class="list_li" >生活</a></li>
+                        <li><a href="javascript:;" class="list_li" >母婴</a></li>
+                        <li><a href="javascript:;" class="list_li" >脱口秀</a></li>
+                        <li><a href="javascript:;" class="list_li" >军事</a></li>
+                        <li><a href="javascript:;" class="list_li" >片花</a></li>
+                        <li><a href="javascript:;" class="list_li" >旅游</a></li>
+                        <li><a href="javascript:;" class="list_li" >时尚</a></li>
+                        <li><a href="javascript:;" class="list_li" >教育</a></li>
+                        <li><a href="javascript:;" class="list_li" >财经</a></li>
+                        <li><a href="javascript:;" class="list_li" >音乐</a></li>
+                        <li><a href="javascript:;" class="list_li" >汽车</a></li>
+                        <li><a href="javascript:;" class="list_li" >纪录片</a></li>
+                        <li><a href="javascript:;" class="list_li" >体育</a></li>
+                        <li><a href="javascript:;" class="list_li" >少儿</a></li>
+                        <li><a href="javascript:;" class="list_li" >游戏</a></li>
+                        <li><a href="javascript:;" class="list_li" >科技</a></li>
+                        <li><a href="javascript:;" class="list_li" >网络电影</a></li>
+                        <li><a href="javascript:;" class="list_li" >拍客</a></li>
+                        <li><a href="javascript:;" class="list_li" >广告</a></li>
+                        <li><a href="javascript:;" class="list_li" >爱奇艺出品</a></li>
+                        <li><a href="javascript:;" class="list_li" >公益</a></li>
+                        <li><a href="javascript:;" class="list_li" >微信热播榜</a></li>
+                        <li><a href="javascript:;" class="list_li" >风云榜</a></li>
+                        <li><a href="javascript:;" class="list_li" >全网影视</a></li>
+                	</ul>
+				</div>
+				<div class="lei_right"></div>
+			</div>
+		</div>
+		<div class="_top" id="tt"></div>
+		
+		<div class="cang" id="cang">
+			<div class="c_top">
+				<p class="ku">
+					<img src="img/sou.jpg" />
+					<input type="text" />
+				</p>
+				<p class="none" id="no">取消</p>
+			</div>
+			<ul>
+				<li>熊出没</li>
+				<li>美人为宴</li>
+				<li>老九门</li>
+				<li>龙珠超</li>
+			</ul>
+		</div>
+		
+		<div class="del" id="bbb">
+			<div class="del_top" id="del">
+				<video id='mp'>
+					<source src='1.mp4'>
+				<video>
+			</div>
+			<div class="player" id="player">
+				<div class="sanj"></div>
+			</div>
+			<div class="del_foot">
+				<div class="timeTo" id="time">
+					<span id="one">00.00</span>/
+					<span id="two">--</span>
+				</div>
+				<div class="tiaoTo" id="tiao">
+					<div class="tiao1" id="tiao1"></div>
+					<div class="tiao2" id="tiao2"></div>
+				</div>
+				<div class="fangda" id="fd"></div>
+			</div>
+		</div>
+		
+		<div class="lc">
+			<p class="lc_a">打开爱奇艺，提升3倍流畅度</p>
+		</div>
+		
+		<div class="pl">
+			<div class="pl_a">评论：14条</div>
+			<p class="dw"></p>
+			<p class="dian"></p>
+			<a href="javascript:;" class="pl_b">流畅</a>
+			<div class="fx">
+				<p class="fx_a" style="border-right:0.05rem solid #e6e6e6">
+					<span class="fx_tu">
+						<img src="img/b-2.jpg" />
+					</span>
+					<span class="fx_zi">分享</span>
+				</p>
+				<p class="fx_a" style="border-right:0.05rem solid #e6e6e6">
+					<span class="fx_tu">
+						<img src="img/b-3.jpg" />
+					</span>
+					<span class="fx_zi">收藏</span>
+				</p>
+				<p class="fx_b">
+					<a href="img/b-4.jpg" download="1.mp4" class="fx_tuu">
+						<img src="img/b-4.jpg" />
+					</a>
+					<span class="fx_zii">下载</span>
+				</p>
+			</div>
+		</div>
+		
+		<div class="dp">
+			<p>大牌对王牌第4季</p>
+			<span>何洁暴瘦5桶油 吴莫愁</span>
+			<img src="img/b-5.jpg" />
+		</div>
+		<div class="bl">喊罢录</div>
+		<div class="time">每周五10:00</div>
+		<div class="djl">
+			<img src="img/b-6.jpg" />
+			<span>47.0万</span>
+		</div>
+		
+		<div class="blr">
+			<img src="img/b-7.jpg" />
+			<div class="blr_a">
+				<p class="blr_b">不良人2</p>
+				<p class="blr_c">
+					<span>游戏</span>
+					<span>顶级国漫3D武侠手游</span>
+				</p>
+			</div>
+			<p class="blr_d">下载</p>
+		</div>
+		<div class="kong"></div>
+		
+		<div class="kd">2016-10-28期 看点</div>
+		<div class="jm">
+			<p>大牌对王牌第4季之何洁暴瘦5桶油 吴莫愁喊罢录</p>
+			<p>徐浩杨亘鲜肉加盟主持团</p>
+			<!--<p>徐浩杨亘鲜肉加盟主持团</p>-->
+		</div>
+		<div class="kong"></div>
+		
+		<div class="wq">往期看点</div>
+		<div class="ny">
+			<p>2016年</p>
+			<p>10月</p>
+		</div>
+		
+		<div class="nr">
+			<a href="javascript:;"><img src="img/b-8.jpg" /></a>
+			<p class="nr_a">
+				<span>何洁暴瘦5桶油 吴莫愁喊罢录</span>
+				<span>47.0万次播放</span>
+			</p>
+		</div>
+		
+		<div class="kong"></div>
+		<div class="wq">猜你喜欢</div>
+		<div class="cn">
+			<p class="cn_a">
+				<img src="img/b-9.jpg" />
+				<span>大牌对王牌第1季</span>
+			</p>
+			<p class="cn_a">
+				<img src="img/b-10.jpg" />
+				<span>吉林卫视欢乐颂</span>
+			</p>
+			<p class="cn_b">
+				<img src="img/b-11.jpg" />
+				<span>今日海峡</span>
+			</p>
+		</div>
+		<div class="kong"></div>
+		<div class="wq">评论</div>
+		
+		<div class="lie">
+			<div class="lie_a">
+				<img src="img/b-12.jpg" />
+				<input type="text" placeholder="我来评论" id="cj"/>
+			</div>
+			<p>爱吃蛋糕的北野睿敏</p>
+			<span class="name">何洁</span>
+			<p>2分钟前</p>
+			<div class="aa">
+				<span>0</span>
+				<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+				<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+			</div>
+		</div>
+		
+		<ul id="ul" class="ul">
+			<li class="lieTo">
+				<p class="Name">152****7063_m1615</p>
+				<p class="con">大牌我来了</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">鼻尖相碰的距离_</p>
+				<p class="con">嗯呢</p>
+				<p class="Time">1分钟前</p>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">陪着花花唱情歌啊</p>
+				<p class="con">何洁</p>
+				<p class="Time">1分钟前</p>
+				<img src="img/b-15.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			<li class="lieTo">
+				<p class="Name">青声细语</p>
+				<p class="con">出来了 ，大宇，牌牌好</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">152****7063_m1615</p>
+				<p class="con">大牌我来了</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">鼻尖相碰的距离_</p>
+				<p class="con">嗯呢</p>
+				<p class="Time">1分钟前</p>
+				<div class="ac">
+					<span>1</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">陪着花花唱情歌啊</p>
+				<p class="con">何洁</p>
+				<p class="Time">1分钟前</p>
+				<img src="img/b-15.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			<li class="lieTo">
+				<p class="Name">青声细语</p>
+				<p class="con">出来了 ，大宇，牌牌好</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">152****7063_m1615</p>
+				<p class="con">大牌我来了</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">鼻尖相碰的距离_</p>
+				<p class="con">嗯呢</p>
+				<p class="Time">1分钟前</p>
+				<div class="ac">
+					<span>1</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			
+			<li class="lieTo">
+				<p class="Name">陪着花花唱情歌啊</p>
+				<p class="con">何洁</p>
+				<p class="Time">1分钟前</p>
+				<img src="img/b-15.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>0</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+			<li class="lieTo">
+				<p class="Name">青声细语</p>
+				<p class="con">出来了 ，大宇，牌牌好</p>
+				<p class="Time">2分钟前</p>
+				<img src="img/b-12.jpg" class="touxiang"/>
+				<div class="ac">
+					<span>1</span>
+					<a href="javascript:;"><img src="img/b-13.jpg" /></a>
+					<a href="javascript:;"><img src="img/b-14.jpg" /></a>
+				</div>
+			</li>
+		</ul>
+		
+		
+		<div class="dd">没有更多评论了</div>
+		<div class="kong"></div>
+		
+		<div class="fk">
+			<p></p>
+			<span>意见反馈</span>
+		</div>
+		<div class="bottom">
+			<p>悦 享 品 质</p>
+			<span>Always Fun Always Fine</span>
+		</div>
+
+		
+		<script>
+			document.documentElement.style.fontSize = innerWidth/16+'px';
+   			onresize = function(){
+   				document.documentElement.style.fontSize = innerWidth/16+'px';
+   			};	
+   			log.onclick=function(){
+   				cang.style.display='block'
+   			}
+   			no.onclick=function(){
+   				cang.style.display='none'
+   			}
+   			var dd=true;
+			one.innerHTML=mp.currentTime.toFixed(2);	
+			var bb=true;
+			
+			player.addEventListener('touchstart',function(){
+				dd=!dd;
+				if(dd){
+					(player.className='player',mp.pause())
+				}else{
+					(player.className+=' player2',mp.play())
+				}
+			},false);
+			
+			del.addEventListener('touchstart',function(){
+				dd=!dd;
+				if(dd){
+					(player.className='player',mp.pause())
+				}else{
+					(player.className+=' player2',mp.play())
+				}
+			},false);
+			tiao2.onmousedown=function(e){
+				var ev=e || event;
+				var l=ev.clientX - this.offsetLeft;
+				mp.pause();
+				document.onmousemove=function(e){
+					var ev=e || event;
+					var n_l=ev.clientX - l;
+					var m_l=tiao1.parentNode.offsetWidth-tiao1.offsetWidth;
+					n_l=n_l<0?0:n_l;
+					n_l=n_l>m_l?m_l:n_l;
+					mp.currentTime=mp.duration * n_l/m_l;
+					tiao2.style.width=n_l/m_l * 100 + '%';
+					tiao1.style.left=n_l + 'px';
+				};
+				document.onmouseup=function(){
+					if(!dd)mp.play();
+					document.onmousemove=document.onmouseup=null;
+				};
+				return false;
+			}
+			
+			mp.addEventListener('timeupdate',function(){
+				var max_w=tiao.offsetWidth-tiao1.offsetWidth/2
+				var n_w=mp.currentTime/mp.duration
+				tiao2.style.width=n_w * 100 + '%' ;
+				tiao1.style.left=max_w * n_w+'px';
+			
+				two.innerHTML=mp.duration.toFixed(2);
+				one.innerHTML=mp.currentTime.toFixed(2);
+				if(mp.currentTime>=mp.duration){
+					player.className='player';
+					tiao1.style.left=0;
+					tiao2.style.width=0;
+					dd=!dd;
+				}
+			},false);	
+			mp.addEventListener('ended',function(){
+				
+			},false);
+			tiao.addEventListener('touchstart',function(e){
+				var ev= e || event;
+				var ll=ev.clientX-this.offsetLeft
+				//mp.currentTime=mp.duration *ll/(this.offsetWidth-tiao2.offsetWidth);
+				tiao2.style.left=ll+'px';	
+				tiao1.style.width=ll+tiao2.offsetWidth+'px';
+			},false)
+			fd.onclick = function(){
+				mp.webkitEnterFullScreen();
+			}
+			
+		</script>
+		<script type="text/javascript" src="js/js2.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+*{margin:0; padding:0; list-style: none; font-family: "微软雅黑";}
+a{text-decoration: none; display: block;}
+html,body{width: 100%; height:100%}
+
+
+.top{width:16rem; height:3.41rem; top:0; left:0; z-index: 10; position:fixed; top:0px;}
+._top{width:16rem; height:3.41rem; z-index: 9;}
+.head{width:16rem; height:1.875rem; background:#1f1f1f;}
+.logo{width:3.125rem; height:1.025rem; background:url(img/a-1.jpg); background-size: cover;
+margin-top:0.425rem; margin-left:0.425rem; float:left; display: block;}
+.head_sou{width:0.875rem; height:0.85rem; background:url(img/a-2.jpg); background-size: cover;
+margin-left:4.275rem; margin-top:0.55rem; float: left;}
+.head_time{width:0.875rem; height:0.85rem; background:url(img/a-3.jpg); background-size: cover;
+margin-left:0.85rem; margin-top:0.525rem; float: left;}
+.head_deng{width:1.9rem; height:1.875rem; line-height:1.875rem; font-size:0.525rem; color:#c8c8c8;
+margin-left:0.8rem;  float: left;}
+.head_app{width:2.45rem; height:0.875rem; background:url(img/a-4.jpg); background-size: cover;
+margin-top:0.5rem; float: left;}
+.lei{width:16rem; height:1.525rem; background:#f4f4f4; border-bottom: 1px solid #dedede;}
+.lei_left{width:14.05rem; height:1.525rem; border-right:1px solid #dedede; float: left;
+ box-shadow:0px 0px 0px #e0e0e0;}
+.lei.le{width:14.05rem; height:1.525rem; position:absolute;}
+.lei_a{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#333333;}
+.lei_b{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#20bc22; border-bottom: 2px solid #20bc22;}
+.lei_right{width:1.9rem; height:1.525rem; float: left; background:url(img/a-5.jpg);
+background-size: cover;}
+
+.rb{width:16rem; height:2rem;}
+.rb p{width:2.8rem; height:1.525rem; margin-left:0.725rem; float: left; font-size:0.625rem;
+color:#20bc22; line-height:1.525rem;}
+.rb span{display: block; width:2.8rem; height:1.525rem; float: left; font-size:0.625rem;
+color:#333333; line-height:1.525rem;}
+
+
+.lx{width:16rem; height:1.1rem; }
+.lx p{width:3.075rem; height:1.1rem; margin-left:0.725rem; font-size:0.625rem; color:#20bc22;
+float: left;}
+.lx span{display: block; width:12.195rem; height:1.1rem; float: left; overflow: hidden; }
+.lx span a{display: block; width:auto; height:1.1rem; font-size:0.625rem; color:#333333;
+float: left; margin:0 0.35rem;}
+
+.kong{width:16rem; height:0.35rem; background:#f0f0f0;}
+
+.hz{width:16rem; height:auto; border-bottom: 0.05rem solid #e6e6e6;}
+.ms_a{width:15.25rem; height:6.7rem; margin:0 auto;}
+.ms_left{width:7.45rem; height:6.7rem; float:left;}
+.ms_left img{display: block; width:7.45rem; height:4.25rem; background-size: cover;}
+.ms_left span{display: block; width:7.45rem; height:2.45rem; line-height:0.95rem;
+font-size:0.625rem; color:#333333;}
+.xq_a{width:15.25rem; height:5.8rem; margin:0 auto;}
+.xq_left{width:7.45rem; height:5.8rem; float: left; }
+.xq_left img{display: block; width:7.45rem; height:4.25rem; background-size: cover;}
+.xq_left span{display: block; width:7.45rem; height:1.325rem; line-height:1.325rem; 
+font-size:0.625rem;color:#333333;}
+
+.dd{width:100%; height:2rem; background:#fff; line-height: 2rem; text-align: center; font-size:0.65rem;
+color:#20bc22;}
+
+.cang{width:16rem; height:9.48rem; background:#fff; position:fixed; top:0; display: none;
+transition: 1s; z-index: 10;}
+.c_top{width:16rem; height:3rem; background:#191919;}
+.ku{width:10rem; height:1.8rem; background:#ffffff; border-radius:1rem ; margin-top:0.5rem;
+margin-left:0.75rem; float: left;}
+.ku img{width:1rem; height:1rem; display: block; margin-top:0.4rem; margin-left:0.8rem; float: left;}
+.ku input{width:6rem; height:1.7rem; border:none; float: left; font-size:0.5rem; color:#010101;
+margin-left:0.2rem;}
+.none{width:3.8rem; height:1.6rem; background:#e3e3e3; border-radius:1rem ; float: left;
+margin-top:0.65rem; margin-left:1.2rem; line-height:1.6rem; text-align: center; font-size:0.625rem;
+color:#010101;}
+.cang ul{width:16rem; height:6.5rem;}
+.cang ul li{width:15.5rem; height:1.56rem; line-height:1.56rem; font-size:0.625rem; color:#000000;
+padding-left:0.5rem; border-bottom: 1px solid #e6e6e6; }

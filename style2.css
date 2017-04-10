@@ -1,0 +1,201 @@
+*{margin:0; padding:0; list-style: none; font-family: "微软雅黑";}
+a{text-decoration: none; display: block;}
+html,body{width: 100%; height:100%}
+
+
+.top{width:16rem; height:3.41rem; top:0; left:0; z-index: 10; position:fixed; top:0px;}
+._top{width:16rem; height:3.41rem; z-index: 9;}
+.head{width:16rem; height:1.875rem; background:#1f1f1f;}
+.logo{width:3.125rem; height:1.025rem; background:url(img/a-1.jpg); background-size: cover;
+margin-top:0.425rem; margin-left:0.425rem; float:left; display: block;}
+.head_sou{width:0.875rem; height:0.85rem; background:url(img/a-2.jpg); background-size: cover;
+margin-left:4.275rem; margin-top:0.55rem; float: left;}
+.head_time{width:0.875rem; height:0.85rem; background:url(img/a-3.jpg); background-size: cover;
+margin-left:0.85rem; margin-top:0.525rem; float: left;}
+.head_deng{width:1.9rem; height:1.875rem; line-height:1.875rem; font-size:0.525rem; color:#c8c8c8;
+margin-left:0.8rem;  float: left;}
+.head_app{width:2.45rem; height:0.875rem; background:url(img/a-4.jpg); background-size: cover;
+margin-top:0.5rem; float: left;}
+.lei{width:16rem; height:1.525rem; background:#f4f4f4; border-bottom: 1px solid #dedede;}
+.lei_left{width:14.05rem; height:1.525rem; border-right:1px solid #dedede; float: left;
+ box-shadow:0px 0px 0px #e0e0e0;}
+.lei.le{width:14.05rem; height:1.525rem; position:absolute;}
+.lei_a{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#333333;}
+.lei_b{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#20bc22; border-bottom: 2px solid #20bc22;}
+.lei_right{width:1.9rem; height:1.525rem; float: left; background:url(img/a-5.jpg);
+background-size: cover; z-index: 999; position:absolute; right:0}
+
+
+
+.lc{width:16rem; height:2.025rem; padding-top:0.35rem;}
+.lc_a{width:15.3rem; height:1.75rem; background:#01c000; margin:0 auto; 
+line-height:1.75rem; text-align: center; font-size:0.675rem; color:#ffffff; }
+
+.pl{width:16rem; height:1.875rem; border-bottom: 1px solid #e6e6e6; position:relative;}
+.pl_a{width:3.5rem; height:1.15rem; background:#f0f0f0; line-height:1.15rem; border-radius: 30px;
+margin-left:1.5rem; margin-top:0.25rem; float: left; padding-left:1rem; font-size:0.6rem;
+color:#333333;}
+.dw{width:1.775rem; height:1.675rem; background:url(img/b-1.jpg); background-size: cover; position:absolute;
+top:0; left:0.4rem;}
+.dian{width:0.4rem; height:0.4rem; background:#ff5001; position:absolute; top:0.05rem; left:5.45rem;
+border-radius: 50%;}
+.pl_b{display: block; width:2.6rem; height:1.125rem; border:1px solid #c8c8c8; border-radius:0.875rem;
+float:left; margin-left:0.7rem; margin-top:0.275rem; line-height:1.125rem; font-size:0.6rem;
+text-align: center; color:#c8c8c8;}
+.fx{width:6.5rem; height:1.8rem; float: left; margin-left:0.15rem; margin-top:0.075rem;}
+.fx_a{width:2.15rem; height:1.6rem; float:left;}
+.fx_b{width:1.8rem; height:1.6rem; float:left;}
+.fx_tu{display: block; width:2.15rem; height:0.925rem; }
+.fx_tuu{display: block; width:1.8rem; height:0.925rem; }
+.fx_tu img{width:2.15rem; height:0.925rem; background-size: cover; }
+.fx_tuu img{width:1.8rem; height:0.925rem; background-size: cover; }
+.fx_zi{display: block; width:2.15rem; height:0.65rem; font-size:0.6rem; color:#333333;
+text-align: center;}
+.fx_zii{display: block; width:1.8rem; height:0.65rem; font-size:0.6rem; color:#333333;
+text-align: center;}
+
+
+.dp{width:16rem; height:1rem; margin-top:0.55rem;}
+.dp p{width:5.975rem; height:1rem; float: left; margin-left:0.525rem; font-size: 0.675rem;
+color:#38c33a;}
+.dp span{display: block; width:8.2rem; height:1rem; font-size:0.675rem; float: left; color:#333333;}
+.dp img{display: block; width:0.725rem; height:0.45rem; float: left; background-size: cover; margin-top:0.15rem}
+.bl{width:4rem; height:1rem; margin-left:0.55rem; font-size: 0.675rem; color:#333333;}
+.time{width:6rem; height:1.075rem; font-size: 0.625rem; color:#999999; margin-left: 0.55rem;}
+.djl{width:16rem; height:1.275rem; border-bottom:0.05rem solid #e6e6e6;}
+.djl img{display: block; width:0.625rem; height:0.625rem; float:left; margin-left:0.525rem;
+background-size:cover;}
+.djl span{display: block; width:3rem; height:1.2rem; margin-left:0.25rem; float:left; font-size:0.575rem; color:#666666;}
+
+.blr{width:16rem; height:2.7rem; background:#fff;}
+.blr img{display: block; width:2rem; height:2rem; background-size: cover; float:left; margin-top:0.35rem; margin-left:0.7rem;}
+.blr_a{width:9rem; height:2.2rem; float: left; margin-left:0.35rem; margin-top:0.45rem;}
+.blr_b{width:9rem; height:0.975rem; color:#363636; font-size: 0.65rem;}
+.blr_c{width:9rem; height:1rem;}
+.blr_c span:nth-child(1){display: block; width:1.8rem; height:0.6rem; border-radius: 0.75rem;
+border:0.05rem solid #20bc22; line-height:0.6rem; text-align: center; color:#20bc22; font-size:0.575rem; float: left;}
+.blr_c span:nth-child(2){display: block; width:6rem; height:0.825rem; line-height:0.825rem; float: left;
+color:#999999; margin-left:0.25rem; font-size:0.55rem;}
+.blr_d{width:3.25rem; height:1.5rem; line-height:1.5rem; text-align: center; background:#01c000;
+font-size: 0.625rem; color:#fff; float: left; margin-top:0.7rem;}
+
+.kong{width:16rem; height:0.35rem; background: #f0f0f0;}
+
+.kd{width:15.625rem;height:1.275rem; margin-top:0.525rem; font-size:0.675rem;color:#333333; padding-left:0.375rem;}
+.jm{width:16rem; height:3.35rem; background:#fff; overflow: hidden;}
+.jm p:nth-child(1){width:6.95rem; height:2.9rem; background:#f5f5f5; border:0.05rem solid #f0f0f0;
+line-height:0.85rem; font-size:0.67rem; color:#20bc22; float: left; margin-left:0.35rem; padding:auto;}
+.jm p:nth-child(2){width:6.95rem; height:2.9rem; background:#f5f5f5; border:0.05rem solid #f0f0f0;
+line-height:0.85rem; font-size:0.67rem; color:#333333; float: left; margin-left:0.35rem;  padding:auto;}
+.jm p:nth-child(3){width:6.95rem; height:2.9rem; background:#f5f5f5; border:0.05rem solid #f0f0f0;
+line-height:0.85rem; font-size:0.67rem; color:#333333; float: left; margin-left:0.35rem;  padding:auto;}
+
+.wq{width:15.65rem; height:1.85rem; background:#fff; line-height:1.85rem; padding-left:0.35rem;
+font-size:0.7rem; color:#333333;}
+
+.ny{width:16rem; height:2rem; background:#fbfbfb; border-bottom: 0.05rem solid #e6e6e6;}
+.ny p:nth-child(1){width:2.75rem; height:1rem; float:left; margin-top:0.5rem; margin-left:0.5rem;
+line-height: 1rem; font-size:0.675rem; color:#333333; border-right:0.05rem solid #e6e6e6;}
+.ny p:nth-child(2){width:2rem; height:1.25rem; float: left; margin-left:0.25rem; text-align: center;
+font-size: 0.625rem; color:#20bc22; border-bottom: 0.1rem solid #20bc22; margin-top:0.65rem;}
+
+.nr{width:16rem; height:3.8rem; background:#fafafa; border-bottom: 0.05rem solid #e6e6e6;}
+.nr img{display: block; width:5.5rem; height:3.1rem; background-size: cover; float: left;
+margin-top:0.35rem; margin-left:0.35rem;}
+.nr_a{width:9.25rem ; height:3.4rem; margin-top:0.375rem; margin-left:0.35rem; float: left;}
+.nr_a span:nth-child(1){display: block; width:9.25rem; height:2.475rem; font-size:0.65rem;
+color:#20bc22;}
+.nr_a span:nth-child(2){display: block; width:9.25rem; height:0.8rem; font-size:0.575rem;
+color:#20bc22;}
+
+.cn{width:16rem; height:5.55rem; background:#fff;}
+.cn_a{width:5.5rem; height:5.55rem; margin-left:0.375rem; float: left;}
+.cn_a img{display: block; width:5.5rem; height:3.1rem; background-size: cover;}
+.cn_a span{display: block; width:5.5rem; height:1.325rem; font-size: 0.625rem; color:#333333;}
+.cn_b{width:3.95rem; height:5.55rem; margin-left:0.3rem; float: left;}
+.cn_b img{display: block; width:3.95rem; height:3.1rem; background-size: cover;}
+.cn_b span{display: block; width:3.95rem; height:1.325rem; font-size: 0.625rem; color:#333333;}
+
+.lie{width:16rem; height:5.75rem; border-bottom: 0.05rem solid #e6e6e6; position:relative;}
+.lie_a{width:16rem; height:2.75rem; }
+.lie_a img{display:block ;width:1.5rem; height:1.5rem; float: left; margin-left:0.375rem;
+margin-top:0.025rem; }
+.lie_a input{width:12.975rem; height:1.75rem; line-height:1.75rem; background:#f5f5f5; border:0.05rem solid #e6e6e6;
+margin-left:0.375rem; border-radius: 0.125rem; float: left; padding-left:0.375rem; font-size:0.625rem; color:#a9a9a9;}
+.lie p{width:7rem; height:0.925rem; margin-left:2.2rem; font-size:0.6rem; color:#9c9c9c;}
+.name{display: block; width:7rem; height:1.05rem; font-size:0.625rem; color:#333333;
+margin-left:2.2rem;}
+.aa{width:2.875rem;height:0.65rem;position:absolute;right:0;top:4.6rem;}
+.aa span{float:left;display:block;font-size:0.6rem;color:#999;line-height:0.65rem;}
+.aa>a>img{width:0.65rem;height:0.65rem;float:left;margin-left:0.4rem;}
+
+.ac{width:2.875rem;height:0.65rem;position:absolute;right:0;top:2.2rem;}
+.ac span{float:left;display:block;font-size:0.6rem;color:#999;line-height:0.65rem;}
+.ac>a>img{width:0.65rem;height:0.65rem;float:left;margin-left:0.4rem;}
+
+.lieTo{width:16rem; height:3.2rem; border-bottom: 0.05rem solid #e6e6e6; margin-top:0.35rem;
+position:relative;}
+.Name{width:7rem; height:0.85rem; margin-left:2.225rem; font-size:0.6rem; color:#999999;}
+.con{width:7rem; height:1.025rem; font-size:0.625rem; color:#333333; margin-left:2.225rem;}
+.Time{width:7rem; height:1rem; font-size:0.6rem; color:#999999; margin-left:2.225rem;}
+.touxiang{display:block ;width:1.5rem; height:1.5rem; position:absolute;top:0rem; left:0.375rem;}
+
+.dd{width:16rem; height:2rem; background:#fff; line-height: 2rem; text-align: center; font-size:0.65rem;
+color:#20bc22;}
+.cc{width:16rem;height:20rem; }
+
+
+.fk{width:16rem; height:1.725rem; background:#fff;}
+.fk p{width:0.55rem; height:0.5rem; background:url(img/a-100.jpg); background-size: cover;
+float:left; margin-top:0.625rem; margin-left:6.55rem;}
+.fk span{width:4rem; height:1.725rem; line-height:1.725rem; font-size:0.5rem; color:#20bc22;
+float:left; margin-left:0.2rem;}
+
+
+.bottom{width:16rem; height:1.75rem; background:#f0f0f0; padding-top:0.625rem;}
+.bottom p{width:16rem; height:0.825rem; font-size:0.625rem;color:#c8c8c8; text-align: center;}
+.bottom span{display: block; width:16rem; height:0.5rem; font-size: 0.3rem; color:#c8c8c8;
+text-align: center;}
+
+.cang{width:16rem; height:9.48rem; background:#fff; position:fixed; top:0; display: none;
+transition: 1s; z-index: 10;}
+.c_top{width:16rem; height:3rem; background:#191919;}
+.ku{width:10rem; height:1.8rem; background:#ffffff; border-radius:1rem ; margin-top:0.5rem;
+margin-left:0.75rem; float: left;}
+.ku img{width:1rem; height:1rem; display: block; margin-top:0.4rem; margin-left:0.8rem; float: left;}
+.ku input{width:6rem; height:1.7rem; border:none; float: left; font-size:0.5rem; color:#010101;
+margin-left:0.2rem;}
+.none{width:3.8rem; height:1.6rem; background:#e3e3e3; border-radius:1rem ; float: left;
+margin-top:0.65rem; margin-left:1.2rem; line-height:1.6rem; text-align: center; font-size:0.625rem;
+color:#010101;}
+.cang ul{width:16rem; height:6.5rem;}
+.cang ul li{width:15.5rem; height:1.56rem; line-height:1.56rem; font-size:0.625rem; color:#000000;
+padding-left:0.5rem; border-bottom: 1px solid #e6e6e6; }
+
+.del{width:16rem; height:9rem; position:relative;}
+.del_top{width:100%; height:100%;}
+video{width:100%;}
+.del_foot{width:16rem; height:2rem; background:#222222; opacity: 0.9; position:absolute;
+bottom: 0;}
+.timeTo{width:3.7rem; height:2rem; line-height:2rem; text-align: center; font-size:0.475rem;
+color:#fff; margin-left:0.05rem; float: left;}
+.tiaoTo{width:9.45rem; height:0.1rem; background:black; float: left; margin-top:1rem; 
+margin-left:0.45rem; position:relative;}
+.tiao1{width:0.9rem; height:0.9rem; background:#fff; border-radius: 50%; position:absolute; top:-0.4rem;}
+.fangda{width:0.8rem; height:0.825rem; background:url(img/b-16.jpg); float: left;
+background-size: cover; margin-top:0.625rem; margin-left:0.6rem;}
+.tiao2{width:0%; height:0.1rem; background:#fff;}
+.player{width:3rem; height:2.95rem; background:#000; position:absolute; top:2.95rem; left:6.5rem;
+border-radius: 50%; background:url(img/ks_1.jpg); background-size: cover;}
+.player2{opacity: 0; }
+
+.list_ul{width: 700%;  position: absolute; height:1.525rem; z-index: 9;}
+.list_ul li{ height: 1.525rem; line-height: 1.525rem; float: left; display: block; }
+.list_ul li a{ text-decoration: none;  font-size: 0.7rem; line-height: 1.525rem; padding:0 0.5rem  0rem 0.5rem;}
+.list_li{ color: #333;}
+.kk{ color: #20bc22; border-bottom: 0.05rem solid #20bc22; height: 1.525rem;}
+
+.ul{height:auto; display: block; width:16rem;}
+.bot{width:16rem; height:2rem; background:red;}

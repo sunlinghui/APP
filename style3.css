@@ -1,0 +1,109 @@
+*{margin:0; padding:0; list-style: none; font-family: "微软雅黑";}
+a{text-decoration:none;color:#20bc22}
+span{color:#20bc22}
+html,body{width: 100%; height:100%}
+
+
+.top{width:16rem; height:3.41rem; top:0; left:0; z-index: 10; position:fixed; top:0px;}
+._top{width:16rem; height:3.41rem; z-index: 9;}
+.head{width:16rem; height:1.875rem; background:#1f1f1f;}
+.logo{width:3.125rem; height:1.025rem; background:url(img/a-1.jpg); background-size: cover;
+margin-top:0.425rem; margin-left:0.425rem; float:left; display: block;}
+.head_sou{width:0.875rem; height:0.85rem; background:url(img/a-2.jpg); background-size: cover;
+margin-left:4.275rem; margin-top:0.55rem; float: left;}
+.head_time{width:0.875rem; height:0.85rem; background:url(img/a-3.jpg); background-size: cover;
+margin-left:0.85rem; margin-top:0.525rem; float: left;}
+.head_deng{width:1.9rem; height:1.875rem; line-height:1.875rem; font-size:0.525rem; color:#c8c8c8;
+margin-left:0.8rem;  float: left;}
+.head_app{width:2.45rem; height:0.875rem; background:url(img/a-4.jpg); background-size: cover;
+margin-top:0.5rem; float: left;}
+.lei{width:16rem; height:1.525rem; background:#f4f4f4; border-bottom: 1px solid #dedede;}
+.lei_left{width:14.05rem; height:1.525rem; border-right:1px solid #dedede; float: left;
+ box-shadow:0px 0px 0px #e0e0e0;}
+.lei.le{width:14.05rem; height:1.525rem; position:absolute;}
+.lei_a{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#333333;}
+.lei_b{width:auto; height:1.475rem; line-height:1.475rem; font-size:0.6rem; padding:0 0.44rem;
+float: left; display: block; color:#20bc22; border-bottom: 2px solid #20bc22;}
+.lei_right{width:1.9rem; height:1.525rem; float: left; background:url(img/a-5.jpg);
+background-size: cover; position:absolute; right:0; z-index: 999;}
+
+.box{width:100%; height:auto;}
+.show{display: none;}
+.tiao{width:16rem; height:1.8rem; border-bottom: 0.05rem solid #f4f4f4;}
+.tiao_a{width:15.2rem; height:1.2rem; border:0.05rem solid #20bc22; border-radius: 0.75rem;
+margin:0.25rem auto;}
+.tiao_a span{display: block; width:7.6rem; height:1.2rem; float:left; 
+border-radius: 0.75rem 0 0 0.75rem ; line-height:1.2rem; font-size:0.675rem; text-align: center; }
+.tiao_a a{display: block; width:7.6rem; height:1.2rem; float:left;
+border-radius:  0 0.75rem 0.75rem 0 ; line-height:1.2rem; font-size:0.675rem; text-align: center;}
+.active{background:#20bc22; color:#fff; line-height:1.2rem; font-size:0.675rem; text-align: center;}
+
+.lb{width:16rem; height:7.7rem; background:#fff; margin-top:0.35rem;}
+.banner{width:15.3rem; height:6.35rem; margin:0 auto;}
+.banner img{width:15.3rem; height:6.35rem; background-size: cover;}
+.lb p{width:13rem; height:1.225rem; line-height:1.225rem; margin-left:0.4rem; font-size:0.625rem; color:#333333}
+.xq{width:16rem; height:5.8rem; }
+.xq_a{width:15.25rem; height:5.8rem; margin:0 auto;}
+.xq_left{width:7.45rem; height:5.8rem; float: left; }
+.xq_left img{display: block; width:7.45rem; height:4.25rem; background-size: cover;}
+.xq_left span{display: block; width:7.45rem; height:1.325rem; line-height:1.325rem; font-size:0.625rem;color:#333333;}
+
+.kong{width:16rem; height:0.25rem; background:#f0f0f0;}
+
+.title{width:7rem; height:1.8rem; margin-left:0.35rem; line-height:1.8rem; font-size:0.725rem; color:#333333;}
+.ms{width:16rem; height:19.21rem;}
+.ms_a{width:15.25rem; height:6.7rem; margin:0 auto;}
+.ms_left{width:7.45rem; height:6.7rem; float:left;}
+.ms_left img{display: block; width:7.45rem; height:4.25rem; background-size: cover;}
+.ms_left span{display: block; width:7.45rem; height:2.45rem; line-height:0.95rem; font-size:0.625rem; color:#333333;}
+
+.tx{width:16rem; height:12.5rem; }
+.tit{width:16rem; height:1.65rem;}
+.tit p{width:0.875rem; height:0.85rem;margin-top:0.15rem; margin-left:0.3rem; float: left;}
+.tit p img{width:0.875rem; height:0.85rem;background-size: cover;}
+.tit span{display: block; width:5rem; height:1.55rem; line-height: 1.55rem; float: left;
+font-size:0.6rem; color:#333333; margin-left:0.35rem;}
+
+.tj{width:16rem; height:4.8rem; border-bottom:1px solid #e6e6e6 ;}
+.tj_tu{height:3.95rem; display: -webkit-box; -webkit-box-orient:horizontal;}
+.tj_tu p{-webkit-box-flex:1; display: block; }
+.tj_tu img{width:3.252rem; height:3.525rem; margin:0 auto; display: block;
+background-size: cover;}
+.tj_zi{height:0.8rem; display: -webkit-box; -webkit-box-orient:horizontal;}
+.tj_zi p{-webkit-box-flex:1; display: block; height:0.8rem; font-size:0.45rem; color:#333333;
+text-align: center; width:3.5rem}
+
+.cang{width:16rem; height:9.48rem; background:#fff; position:fixed; top:0; display: none;
+transition: 1s; z-index: 10;}
+.c_top{width:16rem; height:3rem; background:#191919;}
+.ku{width:10rem; height:1.8rem; background:#ffffff; border-radius:1rem ; margin-top:0.5rem;
+margin-left:0.75rem; float: left;}
+.ku img{width:1rem; height:1rem; display: block; margin-top:0.4rem; margin-left:0.8rem; float: left;}
+.ku input{width:6rem; height:1.7rem; border:none; float: left; font-size:0.5rem; color:#010101;
+margin-left:0.2rem;}
+.none{width:3.8rem; height:1.6rem; background:#e3e3e3; border-radius:1rem ; float: left;
+margin-top:0.65rem; margin-left:1.2rem; line-height:1.6rem; text-align: center; font-size:0.625rem;
+color:#010101;}
+.cang ul{width:16rem; height:6.5rem;}
+.cang ul li{width:15.5rem; height:1.56rem; line-height:1.56rem; font-size:0.625rem; color:#000000;
+padding-left:0.5rem; border-bottom: 1px solid #e6e6e6; }
+
+.banner_a{width:15.4rem; height:6.4rem; margin:0 auto; overflow: hidden; position:relative} 
+.banner_a ul{width:400%; height:100%;}
+.banner_a ul li{width: 25%;height: 100%;float: left;}
+.banner_a ul li img{width: 100%; height: 100%; float: left;}
+ol{position: absolute;width: 2.5rem;height:0.5rem;background: #ccc;left: 50%; border-radius: 0.75rem;
+bottom: 0.25rem;margin-left: -1.25rem;}
+ol li{width: 0.25rem;height: 0.25rem;background: black; float: left;
+border-radius: 50%; margin: 0.125rem 0 0 0.1875rem;}
+ol li.active{background: green;}
+/*.banner_a img{width:15.4rem; height:6.4rem; background-size: cover;}*/
+.banner_b{width:10.1rem; height:1.05rem; line-height:1.05rem; font-size:0.5rem; color:#333333;
+margin-left:0.325rem;}
+
+.list_ul{width: 700%;  position: absolute; height:1.525rem; z-index: 9;}
+.list_ul li{ height: 1.525rem; line-height: 1.525rem; float: left; display: block; }
+.list_ul li a{ text-decoration: none;  font-size: 0.7rem; line-height: 1.525rem; padding:0 0.5rem  0rem 0.5rem;}
+.list_li{ color: #333;}
+.kk{ color: #20bc22; border-bottom: 0.05rem solid #20bc22; height: 1.525rem;}
